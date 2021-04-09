@@ -9,8 +9,6 @@ inputs:
     required: true
   webhook_auth:
     description: 'Credentials to be used for BASIC authentication (optional)'
-  webhook_type: 
-    description: 'json | form-urlencoded | json-extended'
   silent:
     description: 'Optional, set to true to disable output and therefore IP leaking'
   data:
